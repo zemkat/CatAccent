@@ -18,6 +18,7 @@ function cat_translate() { /* regexes for cat translations */
     add_to_list(/\bbaby\b/gi, "kitten", true);
     add_to_list(/\bbabies\b/gi, "kittens", true);
     add_to_list(/\bangry\b/gi, "grumpy", true);
+    add_to_list(/\bwere\b/gi, "purr", true);
 }
 
 var cat_match = []; /* regexes to match */
