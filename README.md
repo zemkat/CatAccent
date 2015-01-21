@@ -19,6 +19,8 @@ Do these sound like cat words to you?
 * now
 * new
 * his
+* baby
+* dog
 
 ## That doesn't sound enough like a cat...
 I fully agree. Please fork the [github repo](https://github.com/zemkat/CatAccent), make your improvements, and send me a pull request!
