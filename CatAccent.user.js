@@ -20,6 +20,7 @@ function cat_translate() { /* regexes for cat translations */
     add_to_list(/\bangry\b/gi, "grumpy", true);
     add_to_list(/\bcheeseburger\b/gi, "cheezburger", true);
     add_to_list(/\bcat\b/gi, "boss", true);
+    add_to_list(/\bwere\b/gi, "purr", true);
 }
 
 var cat_match = []; /* regexes to match */
