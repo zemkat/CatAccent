@@ -10,8 +10,8 @@ Add a cat accent to your web browsing experience!
 
 ## To install in Chrome:
 * Download [CatAccent.user.js](https://raw.githubusercontent.com/zemkat/CatAccent/master/CatAccent.user.js) and ignore any warnings about not being able to install extensions from this site.
-* Visit `chrome://extensions` (enter that into the location bar)
-* Drag the CatAccent.user.js file into the browser window, and drop it to install.
+* Install [TamperMonkey](http://tampermonkey.net/), and install as a user script
+* OR Visit `chrome://extensions` (enter that into the location bar) and drag the CatAccent.user.js file into the browser window, and drop it to install (this option doesn't work as well)
 
 ## Did it install correctly?
 Do these sound like cat words to you?
