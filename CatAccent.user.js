@@ -24,6 +24,8 @@ function cat_translate() { /* regexes for cat translations */
     add_to_list(/\bcat\b/gi, "boss", true);
     add_to_list(/\bwere\b/gi, "purr", true);
     add_to_list(/\bare\b/gi, "rawr", true);
+    add_to_list(/\bpop-tart\b/gi, "nyan cat", true);
+    add_to_list(/\bpop-tarts\b/gi, "nyan cats", true);
 }
 
 var cat_match = []; /* regexes to match */
@@ -61,7 +63,7 @@ function alter_case(source, target) {
 			return target[0].toUpperCase() + target.slice(1).toLowerCase();
 		}
 	} else {
-		return target; 
+		return target;
 	}
 }
 
